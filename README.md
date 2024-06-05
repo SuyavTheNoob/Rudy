@@ -33,16 +33,4 @@ The basic or default prefix is "?". You can change the prefix by modifying the `
 ?blush : anime gif interaction
 ...
 
-## 🤝 Contributing [Contact me on Discord]
 
-**Contributions to this project are welcome! If you'd like to contribute, follow these steps:**
-
-## Join Our Discord: Join our Discord server to connect with the community.
-## Show Your Work: Share your contributions with the community.
-## Bug Fixes: If you encounter any bugs or errors, please notify them.
-## Commit Changes: Commit your changes to your forked repository.
-## Pull Request: Submit a pull request with your changes.
-
-# 📚 Copyright 
-
-All code in this project is authored by GlaceYT. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
