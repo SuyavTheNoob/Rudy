@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
   res.sendFile(imagePath);
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
+  console.log(`🔗 Listening to Vlyn Yapping : http://localhost:${port}`);
 });
 printWatermark();
 
