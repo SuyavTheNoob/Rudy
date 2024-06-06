@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://dsc.gg/cherryblossomdc'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GlaceYT](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **Made By [Laplace]**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -57,25 +57,21 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=6641e8b7&is=66409737&hm=96f69ba8bcde4ca44bf8713e22001e0bafad0335cfd1f57c439a34b4762f0e03&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1230822430973628496/1230822720887848991/9147-dark-n-purple-sky-banner-pfpsgg.gif?ex=666233bc&is=6660e23c&hm=547af009bff095e00a53ee4a4bd9a5e0bc8054512a01fbd3e4d1c151526a8275&`);
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setLabel('Buy me a coffee')
+      .setURL('https://buymeacoffee.com/laplace')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://dsc.gg/cherryblossomdc')
       .setStyle(ButtonStyle.Link);
 
-    const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://github.com/GlaceYT')
-      .setStyle(ButtonStyle.Link);
-      
+    
     const row = new ActionRowBuilder()
-      .addComponents(button1, button2, button3);
+      .addComponents(button1, button2);
     
     message.reply({ embeds: [embed], components: [row] });
   },
